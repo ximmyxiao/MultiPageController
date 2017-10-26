@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99DC06A31FA188A300B1F1BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06A21FA188A300B1F1BB /* AppDelegate.m */; };
+		99DC06A61FA188A300B1F1BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06A51FA188A300B1F1BB /* ViewController.m */; };
+		99DC06A91FA188A300B1F1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DC06A71FA188A300B1F1BB /* Main.storyboard */; };
+		99DC06AB1FA188A300B1F1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DC06AA1FA188A300B1F1BB /* Assets.xcassets */; };
+		99DC06AE1FA188A300B1F1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DC06AC1FA188A300B1F1BB /* LaunchScreen.storyboard */; };
+		99DC06B11FA188A300B1F1BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06B01FA188A300B1F1BB /* main.m */; };
+		99DC06BB1FA188A300B1F1BB /* MultiPageControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06BA1FA188A300B1F1BB /* MultiPageControllerTests.m */; };
+		99DC06C61FA188A300B1F1BB /* MultiPageControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06C51FA188A300B1F1BB /* MultiPageControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99DC06B71FA188A300B1F1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DC06961FA188A300B1F1BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DC069D1FA188A300B1F1BB;
+			remoteInfo = MultiPageController;
+		};
+		99DC06C21FA188A300B1F1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DC06961FA188A300B1F1BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DC069D1FA188A300B1F1BB;
+			remoteInfo = MultiPageController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99DC069E1FA188A300B1F1BB /* MultiPageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DC06A11FA188A300B1F1BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99DC06A21FA188A300B1F1BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99DC06A41FA188A300B1F1BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99DC06A51FA188A300B1F1BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99DC06A81FA188A300B1F1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99DC06AA1FA188A300B1F1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99DC06AD1FA188A300B1F1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99DC06AF1FA188A300B1F1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DC06B01FA188A300B1F1BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99DC06B61FA188A300B1F1BB /* MultiPageControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPageControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DC06BA1FA188A300B1F1BB /* MultiPageControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPageControllerTests.m; sourceTree = "<group>"; };
+		99DC06BC1FA188A300B1F1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DC06C11FA188A300B1F1BB /* MultiPageControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPageControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DC06C51FA188A300B1F1BB /* MultiPageControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPageControllerUITests.m; sourceTree = "<group>"; };
+		99DC06C71FA188A300B1F1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99DC069B1FA188A300B1F1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC06B31FA188A300B1F1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC06BE1FA188A300B1F1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99DC06951FA188A300B1F1BB = {
+			isa = PBXGroup;
+			children = (
+				99DC06A01FA188A300B1F1BB /* MultiPageController */,
+				99DC06B91FA188A300B1F1BB /* MultiPageControllerTests */,
+				99DC06C41FA188A300B1F1BB /* MultiPageControllerUITests */,
+				99DC069F1FA188A300B1F1BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99DC069F1FA188A300B1F1BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DC069E1FA188A300B1F1BB /* MultiPageController.app */,
+				99DC06B61FA188A300B1F1BB /* MultiPageControllerTests.xctest */,
+				99DC06C11FA188A300B1F1BB /* MultiPageControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DC06A01FA188A300B1F1BB /* MultiPageController */ = {
+			isa = PBXGroup;
+			children = (
+				99DC06A11FA188A300B1F1BB /* AppDelegate.h */,
+				99DC06A21FA188A300B1F1BB /* AppDelegate.m */,
+				99DC06A41FA188A300B1F1BB /* ViewController.h */,
+				99DC06A51FA188A300B1F1BB /* ViewController.m */,
+				99DC06A71FA188A300B1F1BB /* Main.storyboard */,
+				99DC06AA1FA188A300B1F1BB /* Assets.xcassets */,
+				99DC06AC1FA188A300B1F1BB /* LaunchScreen.storyboard */,
+				99DC06AF1FA188A300B1F1BB /* Info.plist */,
+				99DC06B01FA188A300B1F1BB /* main.m */,
+			);
+			path = MultiPageController;
+			sourceTree = "<group>";
+		};
+		99DC06B91FA188A300B1F1BB /* MultiPageControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				99DC06BA1FA188A300B1F1BB /* MultiPageControllerTests.m */,
+				99DC06BC1FA188A300B1F1BB /* Info.plist */,
+			);
+			path = MultiPageControllerTests;
+			sourceTree = "<group>";
+		};
+		99DC06C41FA188A300B1F1BB /* MultiPageControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99DC06C51FA188A300B1F1BB /* MultiPageControllerUITests.m */,
+				99DC06C71FA188A300B1F1BB /* Info.plist */,
+			);
+			path = MultiPageControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99DC069D1FA188A300B1F1BB /* MultiPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DC06CA1FA188A300B1F1BB /* Build configuration list for PBXNativeTarget "MultiPageController" */;
+			buildPhases = (
+				99DC069A1FA188A300B1F1BB /* Sources */,
+				99DC069B1FA188A300B1F1BB /* Frameworks */,
+				99DC069C1FA188A300B1F1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiPageController;
+			productName = MultiPageController;
+			productReference = 99DC069E1FA188A300B1F1BB /* MultiPageController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99DC06B51FA188A300B1F1BB /* MultiPageControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DC06CD1FA188A300B1F1BB /* Build configuration list for PBXNativeTarget "MultiPageControllerTests" */;
+			buildPhases = (
+				99DC06B21FA188A300B1F1BB /* Sources */,
+				99DC06B31FA188A300B1F1BB /* Frameworks */,
+				99DC06B41FA188A300B1F1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DC06B81FA188A300B1F1BB /* PBXTargetDependency */,
+			);
+			name = MultiPageControllerTests;
+			productName = MultiPageControllerTests;
+			productReference = 99DC06B61FA188A300B1F1BB /* MultiPageControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99DC06C01FA188A300B1F1BB /* MultiPageControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DC06D01FA188A300B1F1BB /* Build configuration list for PBXNativeTarget "MultiPageControllerUITests" */;
+			buildPhases = (
+				99DC06BD1FA188A300B1F1BB /* Sources */,
+				99DC06BE1FA188A300B1F1BB /* Frameworks */,
+				99DC06BF1FA188A300B1F1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DC06C31FA188A300B1F1BB /* PBXTargetDependency */,
+			);
+			name = MultiPageControllerUITests;
+			productName = MultiPageControllerUITests;
+			productReference = 99DC06C11FA188A300B1F1BB /* MultiPageControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99DC06961FA188A300B1F1BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Piao Piao";
+				TargetAttributes = {
+					99DC069D1FA188A300B1F1BB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					99DC06B51FA188A300B1F1BB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99DC069D1FA188A300B1F1BB;
+					};
+					99DC06C01FA188A300B1F1BB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99DC069D1FA188A300B1F1BB;
+					};
+				};
+			};
+			buildConfigurationList = 99DC06991FA188A300B1F1BB /* Build configuration list for PBXProject "MultiPageController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99DC06951FA188A300B1F1BB;
+			productRefGroup = 99DC069F1FA188A300B1F1BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99DC069D1FA188A300B1F1BB /* MultiPageController */,
+				99DC06B51FA188A300B1F1BB /* MultiPageControllerTests */,
+				99DC06C01FA188A300B1F1BB /* MultiPageControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99DC069C1FA188A300B1F1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DC06AE1FA188A300B1F1BB /* LaunchScreen.storyboard in Resources */,
+				99DC06AB1FA188A300B1F1BB /* Assets.xcassets in Resources */,
+				99DC06A91FA188A300B1F1BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC06B41FA188A300B1F1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC06BF1FA188A300B1F1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99DC069A1FA188A300B1F1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DC06A61FA188A300B1F1BB /* ViewController.m in Sources */,
+				99DC06B11FA188A300B1F1BB /* main.m in Sources */,
+				99DC06A31FA188A300B1F1BB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC06B21FA188A300B1F1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DC06BB1FA188A300B1F1BB /* MultiPageControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DC06BD1FA188A300B1F1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DC06C61FA188A300B1F1BB /* MultiPageControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99DC06B81FA188A300B1F1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DC069D1FA188A300B1F1BB /* MultiPageController */;
+			targetProxy = 99DC06B71FA188A300B1F1BB /* PBXContainerItemProxy */;
+		};
+		99DC06C31FA188A300B1F1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DC069D1FA188A300B1F1BB /* MultiPageController */;
+			targetProxy = 99DC06C21FA188A300B1F1BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99DC06A71FA188A300B1F1BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DC06A81FA188A300B1F1BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99DC06AC1FA188A300B1F1BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DC06AD1FA188A300B1F1BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99DC06C81FA188A300B1F1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99DC06C91FA188A300B1F1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DC06CB1FA188A300B1F1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S99AT867TC;
+				INFOPLIST_FILE = MultiPageController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.MultiPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99DC06CC1FA188A300B1F1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S99AT867TC;
+				INFOPLIST_FILE = MultiPageController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.MultiPageController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99DC06CE1FA188A300B1F1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S99AT867TC;
+				INFOPLIST_FILE = MultiPageControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.MultiPageControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiPageController.app/MultiPageController";
+			};
+			name = Debug;
+		};
+		99DC06CF1FA188A300B1F1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S99AT867TC;
+				INFOPLIST_FILE = MultiPageControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.MultiPageControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiPageController.app/MultiPageController";
+			};
+			name = Release;
+		};
+		99DC06D11FA188A300B1F1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S99AT867TC;
+				INFOPLIST_FILE = MultiPageControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.MultiPageControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiPageController;
+			};
+			name = Debug;
+		};
+		99DC06D21FA188A300B1F1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S99AT867TC;
+				INFOPLIST_FILE = MultiPageControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.MultiPageControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiPageController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DC06991FA188A300B1F1BB /* Build configuration list for PBXProject "MultiPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC06C81FA188A300B1F1BB /* Debug */,
+				99DC06C91FA188A300B1F1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DC06CA1FA188A300B1F1BB /* Build configuration list for PBXNativeTarget "MultiPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC06CB1FA188A300B1F1BB /* Debug */,
+				99DC06CC1FA188A300B1F1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DC06CD1FA188A300B1F1BB /* Build configuration list for PBXNativeTarget "MultiPageControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC06CE1FA188A300B1F1BB /* Debug */,
+				99DC06CF1FA188A300B1F1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DC06D01FA188A300B1F1BB /* Build configuration list for PBXNativeTarget "MultiPageControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DC06D11FA188A300B1F1BB /* Debug */,
+				99DC06D21FA188A300B1F1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99DC06961FA188A300B1F1BB /* Project object */;
+}
