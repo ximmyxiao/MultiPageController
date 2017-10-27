@@ -15,6 +15,7 @@
 		99DC06B11FA188A300B1F1BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06B01FA188A300B1F1BB /* main.m */; };
 		99DC06BB1FA188A300B1F1BB /* MultiPageControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06BA1FA188A300B1F1BB /* MultiPageControllerTests.m */; };
 		99DC06C61FA188A300B1F1BB /* MultiPageControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06C51FA188A300B1F1BB /* MultiPageControllerUITests.m */; };
+		99DC06D51FA18BF500B1F1BB /* MultiPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DC06D41FA18BF500B1F1BB /* MultiPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		99DC06C11FA188A300B1F1BB /* MultiPageControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPageControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DC06C51FA188A300B1F1BB /* MultiPageControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPageControllerUITests.m; sourceTree = "<group>"; };
 		99DC06C71FA188A300B1F1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DC06D31FA18BF500B1F1BB /* MultiPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiPageViewController.h; sourceTree = "<group>"; };
+		99DC06D41FA18BF500B1F1BB /* MultiPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				99DC06AC1FA188A300B1F1BB /* LaunchScreen.storyboard */,
 				99DC06AF1FA188A300B1F1BB /* Info.plist */,
 				99DC06B01FA188A300B1F1BB /* main.m */,
+				99DC06D31FA18BF500B1F1BB /* MultiPageViewController.h */,
+				99DC06D41FA18BF500B1F1BB /* MultiPageViewController.m */,
 			);
 			path = MultiPageController;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				99DC06A61FA188A300B1F1BB /* ViewController.m in Sources */,
 				99DC06B11FA188A300B1F1BB /* main.m in Sources */,
 				99DC06A31FA188A300B1F1BB /* AppDelegate.m in Sources */,
+				99DC06D51FA18BF500B1F1BB /* MultiPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
